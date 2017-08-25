@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8DCF451F4FE34F00749347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8DCF441F4FE34F00749347 /* AppDelegate.swift */; };
+		AA8DCF471F4FE34F00749347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8DCF461F4FE34F00749347 /* ViewController.swift */; };
+		AA8DCF4A1F4FE34F00749347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8DCF481F4FE34F00749347 /* Main.storyboard */; };
+		AA8DCF4D1F4FE34F00749347 /* Circle_Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8DCF4B1F4FE34F00749347 /* Circle_Reminder.xcdatamodeld */; };
+		AA8DCF4F1F4FE34F00749347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8DCF4E1F4FE34F00749347 /* Assets.xcassets */; };
+		AA8DCF521F4FE34F00749347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8DCF501F4FE34F00749347 /* LaunchScreen.storyboard */; };
+		AAE9D1631F4FE93C00A44A59 /* TwoHandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9D1621F4FE93C00A44A59 /* TwoHandleViewController.swift */; };
+		AAE9D1671F4FE9C500A44A59 /* DoubleHandleCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9D1661F4FE9C500A44A59 /* DoubleHandleCircularSlider.swift */; };
+		AAE9D16C1F4FE9FC00A44A59 /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9D1681F4FE9FC00A44A59 /* CircularSlider.swift */; };
+		AAE9D16D1F4FE9FC00A44A59 /* CircularSliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9D1691F4FE9FC00A44A59 /* CircularSliderHandle.swift */; };
+		AAE9D16E1F4FE9FC00A44A59 /* CircularTrig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9D16A1F4FE9FC00A44A59 /* CircularTrig.swift */; };
+		AAE9D16F1F4FE9FC00A44A59 /* GradientCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9D16B1F4FE9FC00A44A59 /* GradientCircularSlider.swift */; };
+		AAE9D1711F4FEA4300A44A59 /* Clock.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAE9D1701F4FEA4300A44A59 /* Clock.gif */; };
+		E5F5FC02EEABC4BA9C795959 /* Pods_Circle_Reminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD177056FD4978277A780FF /* Pods_Circle_Reminder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90AE2E9FE129B6710D385EAA /* Pods-Circle Reminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circle Reminder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Circle Reminder/Pods-Circle Reminder.debug.xcconfig"; sourceTree = "<group>"; };
+		AA8DCF411F4FE34F00749347 /* Circle Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circle Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8DCF441F4FE34F00749347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8DCF461F4FE34F00749347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA8DCF491F4FE34F00749347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8DCF4C1F4FE34F00749347 /* Circle_Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Circle_Reminder.xcdatamodel; sourceTree = "<group>"; };
+		AA8DCF4E1F4FE34F00749347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8DCF511F4FE34F00749347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8DCF531F4FE34F00749347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE9D1621F4FE93C00A44A59 /* TwoHandleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoHandleViewController.swift; sourceTree = "<group>"; };
+		AAE9D1661F4FE9C500A44A59 /* DoubleHandleCircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleHandleCircularSlider.swift; sourceTree = "<group>"; };
+		AAE9D1681F4FE9FC00A44A59 /* CircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularSlider.swift; sourceTree = "<group>"; };
+		AAE9D1691F4FE9FC00A44A59 /* CircularSliderHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularSliderHandle.swift; sourceTree = "<group>"; };
+		AAE9D16A1F4FE9FC00A44A59 /* CircularTrig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTrig.swift; sourceTree = "<group>"; };
+		AAE9D16B1F4FE9FC00A44A59 /* GradientCircularSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientCircularSlider.swift; sourceTree = "<group>"; };
+		AAE9D1701F4FEA4300A44A59 /* Clock.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Clock.gif; sourceTree = "<group>"; };
+		CCD177056FD4978277A780FF /* Pods_Circle_Reminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Circle_Reminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB53E0CF9DC8146D40E9340 /* Pods-Circle Reminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circle Reminder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Circle Reminder/Pods-Circle Reminder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8DCF3E1F4FE34F00749347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F5FC02EEABC4BA9C795959 /* Pods_Circle_Reminder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DD14C79C73B5BDCE12AC7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD177056FD4978277A780FF /* Pods_Circle_Reminder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA8DCF381F4FE34F00749347 = {
+			isa = PBXGroup;
+			children = (
+				AA8DCF431F4FE34F00749347 /* Circle Reminder */,
+				AA8DCF421F4FE34F00749347 /* Products */,
+				C81EF9ACEBAAF76D1A5493C6 /* Pods */,
+				16DD14C79C73B5BDCE12AC7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8DCF421F4FE34F00749347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8DCF411F4FE34F00749347 /* Circle Reminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8DCF431F4FE34F00749347 /* Circle Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				AA8DCF481F4FE34F00749347 /* Main.storyboard */,
+				AA8DCF441F4FE34F00749347 /* AppDelegate.swift */,
+				AAE9D1621F4FE93C00A44A59 /* TwoHandleViewController.swift */,
+				AA8DCF461F4FE34F00749347 /* ViewController.swift */,
+				AA8DCF4B1F4FE34F00749347 /* Circle_Reminder.xcdatamodeld */,
+				AAE9D1731F4FEA7100A44A59 /* CircleSlider */,
+				AAE9D1721F4FEA4B00A44A59 /* img */,
+				AA8DCF531F4FE34F00749347 /* Info.plist */,
+				AA8DCF4E1F4FE34F00749347 /* Assets.xcassets */,
+				AA8DCF501F4FE34F00749347 /* LaunchScreen.storyboard */,
+			);
+			path = "Circle Reminder";
+			sourceTree = "<group>";
+		};
+		AAE9D1721F4FEA4B00A44A59 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9D1701F4FEA4300A44A59 /* Clock.gif */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		AAE9D1731F4FEA7100A44A59 /* CircleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				AAE9D1661F4FE9C500A44A59 /* DoubleHandleCircularSlider.swift */,
+				AAE9D1681F4FE9FC00A44A59 /* CircularSlider.swift */,
+				AAE9D1691F4FE9FC00A44A59 /* CircularSliderHandle.swift */,
+				AAE9D16A1F4FE9FC00A44A59 /* CircularTrig.swift */,
+				AAE9D16B1F4FE9FC00A44A59 /* GradientCircularSlider.swift */,
+			);
+			name = CircleSlider;
+			sourceTree = "<group>";
+		};
+		C81EF9ACEBAAF76D1A5493C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90AE2E9FE129B6710D385EAA /* Pods-Circle Reminder.debug.xcconfig */,
+				DDB53E0CF9DC8146D40E9340 /* Pods-Circle Reminder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8DCF401F4FE34F00749347 /* Circle Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8DCF561F4FE34F00749347 /* Build configuration list for PBXNativeTarget "Circle Reminder" */;
+			buildPhases = (
+				81A6C8C0863857E1AE35EEFE /* [CP] Check Pods Manifest.lock */,
+				AA8DCF3D1F4FE34F00749347 /* Sources */,
+				AA8DCF3E1F4FE34F00749347 /* Frameworks */,
+				AA8DCF3F1F4FE34F00749347 /* Resources */,
+				234127EB4A982783AEF721CC /* [CP] Embed Pods Frameworks */,
+				5DD32AE9B59B6A379BA93361 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circle Reminder";
+			productName = "Circle Reminder";
+			productReference = AA8DCF411F4FE34F00749347 /* Circle Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8DCF391F4FE34F00749347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					AA8DCF401F4FE34F00749347 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X6BGLDJTHP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA8DCF3C1F4FE34F00749347 /* Build configuration list for PBXProject "Circle Reminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8DCF381F4FE34F00749347;
+			productRefGroup = AA8DCF421F4FE34F00749347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8DCF401F4FE34F00749347 /* Circle Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8DCF3F1F4FE34F00749347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8DCF521F4FE34F00749347 /* LaunchScreen.storyboard in Resources */,
+				AAE9D1711F4FEA4300A44A59 /* Clock.gif in Resources */,
+				AA8DCF4F1F4FE34F00749347 /* Assets.xcassets in Resources */,
+				AA8DCF4A1F4FE34F00749347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		234127EB4A982783AEF721CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Circle Reminder/Pods-Circle Reminder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Circle Reminder/Pods-Circle Reminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD32AE9B59B6A379BA93361 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Circle Reminder/Pods-Circle Reminder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A6C8C0863857E1AE35EEFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Circle Reminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8DCF3D1F4FE34F00749347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE9D16E1F4FE9FC00A44A59 /* CircularTrig.swift in Sources */,
+				AAE9D16F1F4FE9FC00A44A59 /* GradientCircularSlider.swift in Sources */,
+				AAE9D16D1F4FE9FC00A44A59 /* CircularSliderHandle.swift in Sources */,
+				AA8DCF471F4FE34F00749347 /* ViewController.swift in Sources */,
+				AAE9D1671F4FE9C500A44A59 /* DoubleHandleCircularSlider.swift in Sources */,
+				AAE9D1631F4FE93C00A44A59 /* TwoHandleViewController.swift in Sources */,
+				AA8DCF4D1F4FE34F00749347 /* Circle_Reminder.xcdatamodeld in Sources */,
+				AA8DCF451F4FE34F00749347 /* AppDelegate.swift in Sources */,
+				AAE9D16C1F4FE9FC00A44A59 /* CircularSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8DCF481F4FE34F00749347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8DCF491F4FE34F00749347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8DCF501F4FE34F00749347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8DCF511F4FE34F00749347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8DCF541F4FE34F00749347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8DCF551F4FE34F00749347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8DCF571F4FE34F00749347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AE2E9FE129B6710D385EAA /* Pods-Circle Reminder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X6BGLDJTHP;
+				INFOPLIST_FILE = "Circle Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsaolnkymfan.NotificationTutorial.Circle-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA8DCF581F4FE34F00749347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB53E0CF9DC8146D40E9340 /* Pods-Circle Reminder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X6BGLDJTHP;
+				INFOPLIST_FILE = "Circle Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wsaolnkymfan.NotificationTutorial.Circle-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8DCF3C1F4FE34F00749347 /* Build configuration list for PBXProject "Circle Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DCF541F4FE34F00749347 /* Debug */,
+				AA8DCF551F4FE34F00749347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8DCF561F4FE34F00749347 /* Build configuration list for PBXNativeTarget "Circle Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8DCF571F4FE34F00749347 /* Debug */,
+				AA8DCF581F4FE34F00749347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA8DCF4B1F4FE34F00749347 /* Circle_Reminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA8DCF4C1F4FE34F00749347 /* Circle_Reminder.xcdatamodel */,
+			);
+			currentVersion = AA8DCF4C1F4FE34F00749347 /* Circle_Reminder.xcdatamodel */;
+			path = Circle_Reminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA8DCF391F4FE34F00749347 /* Project object */;
+}
