@@ -1,7 +1,5 @@
 
-# Circle Reminder
-
-## 通知をカスタマイズできる iOSリマインダーアプリ「CircleReminder」
+# 通知をカスタマイズできる iOSリマインダーアプリ「CircleReminder」
 
 <img width="300" alt="2017-12-17 11 17 36" src="https://user-images.githubusercontent.com/32217053/34076006-36e65c84-e31c-11e7-935b-01b2ae0e8594.png">
 
