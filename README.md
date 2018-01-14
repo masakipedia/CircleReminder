@@ -5,7 +5,7 @@
 
 
 ### 学生スマートフォンアプリコンテストに出品
-URL 学生スマートフォンアプリコンテスト <a href="http://contest2017.sig-cds.net/" target="_blank">http://contest2017.sig-cds.net/</a>
+ <a href="http://contest2017.sig-cds.net/" target="_blank">2017学生スマートフォンアプリコンテスト</a>
 
 
 ### 主な実装機能
