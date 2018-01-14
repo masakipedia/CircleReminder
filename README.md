@@ -5,14 +5,15 @@
 
 
 ### 学生スマートフォンアプリコンテストに出品
-URL 学生スマートフォンアプリコンテスト <a href="http://contest2017.sig-cds.net/" >http://contest2017.sig-cds.net/</a>
+URL 学生スマートフォンアプリコンテスト <a href="http://contest2017.sig-cds.net/" target="_blank">http://contest2017.sig-cds.net/</a>
 
 
 ### 主な実装機能
 - CoreData によるアプリ内データベースの使用
 - UNUserNotification による通知の実装
-- iOS form builder ライブラリの「<a href="https://github.com/xmartlabs/Eureka>eureka</a>」を使用
-- 円弧スライダーには License (MIT)「<a href="https://github.com/caolsen/CircularSlider">CircularSlider</a>」を使用
+- iOS form builder ライブラリの「<a href="https://github.com/xmartlabs/Eureka" target="_blank">eureka</a>」を使用
+- 円弧スライダーには License (MIT)「<a href="https://github.com/caolsen/CircularSlider" target="_blank">CircularSlider</a>」を使用
+
 
 ### 開発について
 - 開発期間：2ヶ月 ~ 3ヶ月（アプリ開発の勉強を含める。実装は3週間ほど）
