@@ -13,7 +13,9 @@
 - UNUserNotification による通知の実装
 - iOS form builder ライブラリの「<a href="https://github.com/xmartlabs/Eureka" target="_blank">eureka</a>」を使用
 - 円弧スライダーには License (MIT)「<a href="https://github.com/caolsen/CircularSlider" target="_blank">CircularSlider</a>」を使用
-
+- UIAlertController：入力エラーの警告を実装
+- Timer：残り時間の表示を１秒ごとに更新する機能を実装
+- 開発した時間計算の関数：設定時刻までの残り時間を計算し、x時間y分z秒の形式で表示
 
 ### 開発について
 - 開発期間：2ヶ月 ~ 3ヶ月（アプリ開発の勉強を含める。実装は3週間ほど）
